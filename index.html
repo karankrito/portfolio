@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KARAN PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/300712cde2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/l.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#">HOME</a> </li>
+                    <li><a href="#">ABOUT</a> </li>
+                    <li><a href="#">CERTIFICATIONS</a> </li>
+                    <li><a href="#">MY PROJECTS</a> </li>
+                    <li><a href="#">CONTACT</a> </li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Data Analyst</p>
+                <h1>Hi, I'm <span>Karan </span> from Chennai</h1>
+            </div>
+        </div>
+    </div>
+    <!------------------about--------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/custom-811-x-624-px-1.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">ABOUT ME</h1>
+                    <p>Seeking an opportunity to exhibit my talents in a reputed organization that allow me
+                        to grow professionally , where I can make the best use of my skills for the advancement
+                        of organization as well.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Languages</span><br>Html & Css<br>Java Script<br>Python</li>
+                                <li><span>Database</span><br>My sql</li>
+                                <li><span>Tools/Platforms</span><br>Tableau<br>Jupyternotebook
+                                <br>Ms Excel <br> Vs code</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021-2023</span><br>MSC Information Technology<br>at DG Vaishnav College</li>
+                                <li><span>2017-2020</span><br>BSC Maths with Computer Application<br>at DG Vaishnav College</li>
+                                <li><span>2016-2017</span><br>12 TH<br>at Valliammal.Mat.Hr.Sec.School</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------CERTIFICATION---------------------------->
+    <div id="certify">
+        <div class="container">
+            <h1 class="sub-title">CERTIFICATIONS</h1>
+            <div class="cer-list">
+                <div>
+                    <i class="fa-solid fa-certificate"></i>
+                    <h2>Data analytics</h2>
+                    <p>Besant Technology </p>
+                    <a href="#">click</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-stamp"></i>
+                    <h2>my sql</h2>
+                    <p>Spoken Tutorial</p>
+                    <a href="#">click</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-file-code"></i>
+                    <h2>python</h2>
+                    <p>descrition</p>
+                    <a href="#">click</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="myProjects">
+        <div class="container">
+            <h1 class="sub-title">MY PROJECTS</h1> 
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" >
+                    <div class="layer">
+                        <h3>TABLEAU</h3>
+                        <p> Amazon sales insights through tableau visualization</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" >
+                    <div class="layer">
+                        <h3>PYTHON</h3>
+                        <p> Amazon sales insights through tableau visualization</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" >
+                    <div class="layer">
+                        <h3>TABLEAU</h3>
+                        <p> Amazon sales insights through tableau visualization</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <!---------------------contact---------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+               <div class="contact-left">
+                <h1 class="sub-title">CONTACT ME</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> karankrito67@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>8825858464</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/karan-mscit.pdf" download class="btn btn2">DOWNLOAD RESUME</a>
+               </div>
+               <div class="contact-right">
+                <form>
+                    <input type="text" name="NAME" placeholder="your name" required>
+                    <input type="email" name="EMAIL" placeholder="your email" required>
+                    <textarea name="message" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">SUBMIT</button>
+                </form>
+               </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ krito. Made by <span>karan</span><i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    
+    
+    
+    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right= "0"
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
